@@ -36,7 +36,7 @@ var nom = document.getElementById("nom");
 var error1 = document.getElementById("error1");
 var error2 = document.getElementById("error2");
 var error3 = document.getElementsByClassName("error3");
-var mdp = document.getElementById("mdp");
+var mdp = document.getElementById("mdp")
 
 function ajouterProduit() {
     console.log("ok")
