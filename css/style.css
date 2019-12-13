@@ -1,0 +1,117 @@
+/* PAGE LOGIN et SIGNUP */
+#container{
+    width:400px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+   
+}
+
+h1{
+  color: #699789;
+  display: flex;
+  align-items:  center;
+}
+
+.connexion {
+    width:100%;
+    padding: 50px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2), 0 15px 15px 0 rgba(0, 0, 0, 0.24);
+}
+
+#container h1{
+    width: 65%;
+    margin: 0 auto;
+    padding-bottom: 10%;
+}
+
+
+.login {
+  margin-left: 40%;
+  margin-top: 10%;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 1px;
+  background: black;
+  font: bold 20px Arial;
+  color: white;
+}
+
+.signup{
+  margin-left: 40%;
+  margin-top: 10%;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 1px;
+  background: black;
+  font: bold 20px Arial;
+  color: white;
+}
+
+.nom {
+  margin-bottom: 10%;
+  margin-left: 20%;
+  background-color: white;
+}
+
+.mdp{
+  margin-left: 20%;
+  margin-bottom: 5%;
+  background-color: white;
+}
+
+.inscrire {
+    width:100%;
+    padding: 50px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2), 0 15px 15px 0 rgba(0, 0, 0, 0.24);
+}
+
+/* PAGE CONTACT */
+.contact{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+}
+.maps{
+  width: 80%;
+  margin-left: 10%;
+}
+
+ .moi{
+  width: 20%;
+  margin-left: 41%;
+ }
+
+
+
+ /*ZOOM IMAGE*/
+ .zoom {
+  width: 320px;
+  height: 240px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.image img {
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+  transition: all 1s ease;
+}
+
+.image:hover img {
+  -webkit-transform:scale(1.25); /* Safari et Chrome */
+  transform:scale(1.25);
+}

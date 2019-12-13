@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<p> EXERCICE 2 : </p> 
+	<input type="text" id="ex2_input1" placeholder="Entrer la valeur"><span> = <b id="ex2_result"> </b> </span> 
+	<br>
+	<button onclick="getDivide();"> Submit</button>
+	
+</body>
+<script>
+	function getDivide(){
+	var nb_a = document.getElementById('ex2_input1').value;
+	var result_ex2 = nb_a / 2;
+	alert(result_ex2);
+
+	document.getElementById('result-exo-2-1').innerHTML = result_ex2;}
+</script>
+
+
+	<p>EXERCIE 10 : </p>
+	<input type="text" id="ex10_input1" placeholder="Entrer la valeur">  
+	<input type="text" id="ex10_input2" placeholder="Entrer la valeur"><span> = <b id="ex10_result"> </b> </span> 
+	<br>
+	<button onclick="getAddition();"> Submit</button>
+
+<script>
+	function getAddition(){
+	var nb_a = document.getElementById('ex10_input1').value;
+	var nb_b = document.getElementById('ex10_input2').value;
+	var result_ex10 = eval(nb_a+' + '+nb_b);
+	alert(result_ex10);
+
+	document.getElementById('result-exo-10').innerHTML = result_ex10;}
+</script>
+
+
+</html>
